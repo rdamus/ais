@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ais
+---
+testFramework: junit
+sourceLanguage: java
