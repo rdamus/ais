@@ -1,6 +1,0 @@
-micronaut:
-  application:
-    name: ais
-serial:
-  port: COM4
-  baud: 38400
