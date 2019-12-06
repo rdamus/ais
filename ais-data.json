@@ -1,0 +1,5357 @@
+[
+	{
+		"mmsi": 218092000,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "33?wAp5000G@7DPE`4O4>3HF0000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,33?wAp5000G@7DPE`4O4>3HF0000,0*37",
+						"orgLinesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 3,
+						"repeat": 0,
+						"userId": 218092000,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+							],
+							"msgId": 3,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "B",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "33?wAp5000G@7DPE`4O4>3HF0000",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,B,33?wAp5000G@7DPE`4O4>3HF0000,0*37",
+							"orgLinesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+							"rawSentencesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						},
+						"navStatus": 5,
+						"rot": 0,
+						"sog": 0,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22676604,
+							"rawLongitude": 195050128,
+							"latitudeDouble": 37.794340000000008,
+							"longitudeDouble": -122.30888,
+							"latitude": 22676604,
+							"longitude": -73385328,
+							"geoLocation": {
+								"latitude": 37.794340000000008,
+								"longitude": -122.30888,
+								"dto": {
+									"latitude": 37.794340000000008,
+									"longitude": -122.30888
+								},
+								"longitudeAsString": "122 18.533W",
+								"latitudeAsString": "37 47.660N"
+							}
+						},
+						"cog": 1080,
+						"trueHeading": 108,
+						"utcSec": 11,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotIncrement": 0,
+						"numSlots": 0,
+						"keep": 0,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.794340000000008,
+							"longitude": -122.30888,
+							"dto": {
+								"latitude": 37.794340000000008,
+								"longitude": -122.30888
+							},
+							"longitudeAsString": "122 18.533W",
+							"latitudeAsString": "37 47.660N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.794340000000008,
+					"longitude": -122.30888,
+					"dto": {
+						"latitude": 37.794340000000008,
+						"longitude": -122.30888
+					},
+					"longitudeAsString": "122 18.533W",
+					"latitudeAsString": "37 47.660N"
+				},
+				"timestamp": -1,
+				"trueHeading": 108.0,
+				"courseOverGround": 108.0,
+				"speedOverGround": 0.0,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B",
+					"!AIVDM,2,2,6,A,khBh0000000,2*0B"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B",
+					"!AIVDM,2,2,6,A,khBh0000000,2*0B"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 6,
+				"num": 2,
+				"channel": "A",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5DkhBh0000000",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5DkhBh0000000,0*32",
+				"orgLinesJoined": "!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B\r\n!AIVDM,2,2,6,A,khBh0000000,2*0B",
+				"rawSentencesJoined": "!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B\r\n!AIVDM,2,2,6,A,khBh0000000,2*0B"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 218092000,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B",
+						"!AIVDM,2,2,6,A,khBh0000000,2*0B"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B",
+						"!AIVDM,2,2,6,A,khBh0000000,2*0B"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 6,
+					"num": 2,
+					"channel": "A",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5DkhBh0000000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5DkhBh0000000,0*32",
+					"orgLinesJoined": "!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B\r\n!AIVDM,2,2,6,A,khBh0000000,2*0B",
+					"rawSentencesJoined": "!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B\r\n!AIVDM,2,2,6,A,khBh0000000,2*0B"
+				},
+				"callsign": "DFGX2@@",
+				"name": "HANOVER EXPRESS@@@@@",
+				"shipType": 79,
+				"dimBow": 244,
+				"dimStern": 90,
+				"dimPort": 21,
+				"dimStarboard": 21,
+				"version": 0,
+				"imo": 9343716,
+				"posType": 1,
+				"eta": 779008,
+				"draught": 107,
+				"dest": "USLGB > USOAK@@@@@@@",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"etaDate": 1574942400000,
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B",
+				"!AIVDM,2,2,6,A,khBh0000000,2*0B"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,6,A,53?wAp02>Tf@@HMS800P4puHE:0EQ18E=<00001?NQJEE6v<0JmDk1h`?`5D,0*3B\r\n!AIVDM,2,2,6,A,khBh0000000,2*0B",
+			"validMessage": true
+		},
+		"shipType": 79,
+		"shipName": "HANOVER EXPRESS@@@@@",
+		"callsign": "DFGX2@@",
+		"imo": 9343716,
+		"shipDimensionBow": 244,
+		"shipDimensionStern": 90,
+		"shipDimensionPort": 21,
+		"shipDimensionStarboard": 21,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.794340000000008,
+			"longitude": -122.30888,
+			"dto": {
+				"latitude": 37.794340000000008,
+				"longitude": -122.30888
+			},
+			"longitudeAsString": "122 18.533W",
+			"latitudeAsString": "37 47.660N"
+		},
+		"trueHeading": 108.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "B",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "33?wAp5000G@7DPE`4O4>3HF0000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,B,33?wAp5000G@7DPE`4O4>3HF0000,0*37",
+					"orgLinesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+					"rawSentencesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 218092000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "33?wAp5000G@7DPE`4O4>3HF0000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,33?wAp5000G@7DPE`4O4>3HF0000,0*37",
+						"orgLinesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22676604,
+						"rawLongitude": 195050128,
+						"latitudeDouble": 37.794340000000008,
+						"longitudeDouble": -122.30888,
+						"latitude": 22676604,
+						"longitude": -73385328,
+						"geoLocation": {
+							"latitude": 37.794340000000008,
+							"longitude": -122.30888,
+							"dto": {
+								"latitude": 37.794340000000008,
+								"longitude": -122.30888
+							},
+							"longitudeAsString": "122 18.533W",
+							"latitudeAsString": "37 47.660N"
+						}
+					},
+					"cog": 1080,
+					"trueHeading": 108,
+					"utcSec": 11,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 0,
+					"numSlots": 0,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.794340000000008,
+						"longitude": -122.30888,
+						"dto": {
+							"latitude": 37.794340000000008,
+							"longitude": -122.30888
+						},
+						"longitudeAsString": "122 18.533W",
+						"latitudeAsString": "37 47.660N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.794340000000008,
+				"longitude": -122.30888,
+				"dto": {
+					"latitude": 37.794340000000008,
+					"longitude": -122.30888
+				},
+				"longitudeAsString": "122 18.533W",
+				"latitudeAsString": "37 47.660N"
+			},
+			"timestamp": -1,
+			"trueHeading": 108.0,
+			"courseOverGround": 108.0,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "B",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "33?wAp5000G@7DPE`4O4>3HF0000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,B,33?wAp5000G@7DPE`4O4>3HF0000,0*37",
+					"orgLinesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+					"rawSentencesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 218092000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "33?wAp5000G@7DPE`4O4>3HF0000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,33?wAp5000G@7DPE`4O4>3HF0000,0*37",
+						"orgLinesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22676604,
+						"rawLongitude": 195050128,
+						"latitudeDouble": 37.794340000000008,
+						"longitudeDouble": -122.30888,
+						"latitude": 22676604,
+						"longitude": -73385328,
+						"geoLocation": {
+							"latitude": 37.794340000000008,
+							"longitude": -122.30888,
+							"dto": {
+								"latitude": 37.794340000000008,
+								"longitude": -122.30888
+							},
+							"longitudeAsString": "122 18.533W",
+							"latitudeAsString": "37 47.660N"
+						}
+					},
+					"cog": 1080,
+					"trueHeading": 108,
+					"utcSec": 11,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 0,
+					"numSlots": 0,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.794340000000008,
+						"longitude": -122.30888,
+						"dto": {
+							"latitude": 37.794340000000008,
+							"longitude": -122.30888
+						},
+						"longitudeAsString": "122 18.533W",
+						"latitudeAsString": "37 47.660N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,B,33?wAp5000G@7DPE`4O4>3HF0000,0*14",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.794340000000008,
+				"longitude": -122.30888,
+				"dto": {
+					"latitude": 37.794340000000008,
+					"longitude": -122.30888
+				},
+				"longitudeAsString": "122 18.533W",
+				"latitudeAsString": "37 47.660N"
+			},
+			"timestamp": -1,
+			"trueHeading": 108.0,
+			"courseOverGround": 108.0,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 108.0,
+		"speedOverGround": 0.0,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 334,
+		"vesselBeam": 42
+	},
+	{
+		"mmsi": 368311000,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "15O?rn0P00o@=K8EWsLumwvD2<1W",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*74",
+						"orgLinesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 1,
+						"repeat": 0,
+						"userId": 368311000,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+							],
+							"msgId": 1,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "A",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "15O?rn0P00o@=K8EWsLumwvD2<1W",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*74",
+							"orgLinesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+							"rawSentencesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						},
+						"navStatus": 0,
+						"rot": 128,
+						"sog": 0,
+						"posAcc": 1,
+						"pos": {
+							"rawLatitude": 22674291,
+							"rawLongitude": 195062628,
+							"latitudeDouble": 37.790485,
+							"longitudeDouble": -122.28804666666666,
+							"latitude": 22674291,
+							"longitude": -73372828,
+							"geoLocation": {
+								"latitude": 37.790485,
+								"longitude": -122.28804666666666,
+								"dto": {
+									"latitude": 37.790485,
+									"longitude": -122.28804666666666
+								},
+								"longitudeAsString": "122 17.283W",
+								"latitudeAsString": "37 47.429N"
+							}
+						},
+						"cog": 3543,
+						"trueHeading": 511,
+						"utcSec": 10,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 1,
+						"syncState": 0,
+						"slotTimeout": 3,
+						"subMessage": 103,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"validPosition": {
+							"latitude": 37.790485,
+							"longitude": -122.28804666666666,
+							"dto": {
+								"latitude": 37.790485,
+								"longitude": -122.28804666666666
+							},
+							"longitudeAsString": "122 17.283W",
+							"latitudeAsString": "37 47.429N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": false,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.790485,
+					"longitude": -122.28804666666666,
+					"dto": {
+						"latitude": 37.790485,
+						"longitude": -122.28804666666666
+					},
+					"longitudeAsString": "122 17.283W",
+					"latitudeAsString": "37 47.429N"
+				},
+				"timestamp": -1,
+				"trueHeading": "NaN",
+				"courseOverGround": 354.3,
+				"speedOverGround": 0.0,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.790485,
+			"longitude": -122.28804666666666,
+			"dto": {
+				"latitude": 37.790485,
+				"longitude": -122.28804666666666
+			},
+			"longitudeAsString": "122 17.283W",
+			"latitudeAsString": "37 47.429N"
+		},
+		"trueHeading": "NaN",
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					],
+					"msgId": 1,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "15O?rn0P00o@=K8EWsLumwvD2<1W",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*74",
+					"orgLinesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 1,
+					"repeat": 0,
+					"userId": 368311000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "15O?rn0P00o@=K8EWsLumwvD2<1W",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*74",
+						"orgLinesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					},
+					"navStatus": 0,
+					"rot": 128,
+					"sog": 0,
+					"posAcc": 1,
+					"pos": {
+						"rawLatitude": 22674291,
+						"rawLongitude": 195062628,
+						"latitudeDouble": 37.790485,
+						"longitudeDouble": -122.28804666666666,
+						"latitude": 22674291,
+						"longitude": -73372828,
+						"geoLocation": {
+							"latitude": 37.790485,
+							"longitude": -122.28804666666666,
+							"dto": {
+								"latitude": 37.790485,
+								"longitude": -122.28804666666666
+							},
+							"longitudeAsString": "122 17.283W",
+							"latitudeAsString": "37 47.429N"
+						}
+					},
+					"cog": 3543,
+					"trueHeading": 511,
+					"utcSec": 10,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 1,
+					"syncState": 0,
+					"slotTimeout": 3,
+					"subMessage": 103,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"validPosition": {
+						"latitude": 37.790485,
+						"longitude": -122.28804666666666,
+						"dto": {
+							"latitude": 37.790485,
+							"longitude": -122.28804666666666
+						},
+						"longitudeAsString": "122 17.283W",
+						"latitudeAsString": "37 47.429N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": false,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.790485,
+				"longitude": -122.28804666666666,
+				"dto": {
+					"latitude": 37.790485,
+					"longitude": -122.28804666666666
+				},
+				"longitudeAsString": "122 17.283W",
+				"latitudeAsString": "37 47.429N"
+			},
+			"timestamp": -1,
+			"trueHeading": "NaN",
+			"courseOverGround": 354.3,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					],
+					"msgId": 1,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "15O?rn0P00o@=K8EWsLumwvD2<1W",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*74",
+					"orgLinesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 1,
+					"repeat": 0,
+					"userId": 368311000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "15O?rn0P00o@=K8EWsLumwvD2<1W",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*74",
+						"orgLinesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+					},
+					"navStatus": 0,
+					"rot": 128,
+					"sog": 0,
+					"posAcc": 1,
+					"pos": {
+						"rawLatitude": 22674291,
+						"rawLongitude": 195062628,
+						"latitudeDouble": 37.790485,
+						"longitudeDouble": -122.28804666666666,
+						"latitude": 22674291,
+						"longitude": -73372828,
+						"geoLocation": {
+							"latitude": 37.790485,
+							"longitude": -122.28804666666666,
+							"dto": {
+								"latitude": 37.790485,
+								"longitude": -122.28804666666666
+							},
+							"longitudeAsString": "122 17.283W",
+							"latitudeAsString": "37 47.429N"
+						}
+					},
+					"cog": 3543,
+					"trueHeading": 511,
+					"utcSec": 10,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 1,
+					"syncState": 0,
+					"slotTimeout": 3,
+					"subMessage": 103,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"validPosition": {
+						"latitude": 37.790485,
+						"longitude": -122.28804666666666,
+						"dto": {
+							"latitude": 37.790485,
+							"longitude": -122.28804666666666
+						},
+						"longitudeAsString": "122 17.283W",
+						"latitudeAsString": "37 47.429N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": false,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,15O?rn0P00o@=K8EWsLumwvD2<1W,0*57",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.790485,
+				"longitude": -122.28804666666666,
+				"dto": {
+					"latitude": 37.790485,
+					"longitude": -122.28804666666666
+				},
+				"longitudeAsString": "122 17.283W",
+				"latitudeAsString": "37 47.429N"
+			},
+			"timestamp": -1,
+			"trueHeading": "NaN",
+			"courseOverGround": 354.3,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 354.3,
+		"speedOverGround": 0.0,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		]
+	},
+	{
+		"mmsi": 366904210,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35Mr3TU000G@>c<E`4oBmBVH0EOb",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*0D",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 3,
+						"repeat": 0,
+						"userId": 366904210,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+							],
+							"msgId": 3,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "A",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "35Mr3TU000G@>c<E`4oBmBVH0EOb",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*0D",
+							"orgLinesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+							"rawSentencesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						},
+						"navStatus": 5,
+						"rot": 0,
+						"sog": 0,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22676701,
+							"rawLongitude": 195065190,
+							"latitudeDouble": 37.79450166666666,
+							"longitudeDouble": -122.28377666666667,
+							"latitude": 22676701,
+							"longitude": -73370266,
+							"geoLocation": {
+								"latitude": 37.79450166666666,
+								"longitude": -122.28377666666667,
+								"dto": {
+									"latitude": 37.79450166666666,
+									"longitude": -122.28377666666667
+								},
+								"longitudeAsString": "122 17.027W",
+								"latitudeAsString": "37 47.670N"
+							}
+						},
+						"cog": 725,
+						"trueHeading": 83,
+						"utcSec": 12,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotIncrement": 5502,
+						"numSlots": 5,
+						"keep": 0,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.79450166666666,
+							"longitude": -122.28377666666667,
+							"dto": {
+								"latitude": 37.79450166666666,
+								"longitude": -122.28377666666667
+							},
+							"longitudeAsString": "122 17.027W",
+							"latitudeAsString": "37 47.670N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.79450166666666,
+					"longitude": -122.28377666666667,
+					"dto": {
+						"latitude": 37.79450166666666,
+						"longitude": -122.28377666666667
+					},
+					"longitudeAsString": "122 17.027W",
+					"latitudeAsString": "37 47.670N"
+				},
+				"timestamp": -1,
+				"trueHeading": 83.0,
+				"courseOverGround": 72.5,
+				"speedOverGround": 0.0,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69",
+					"!AIVDM,2,2,5,B,88888888880,2*22"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69",
+					"!AIVDM,2,2,5,B,88888888880,2*22"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 5,
+				"num": 2,
+				"channel": "B",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f888888888888880",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f888888888888880,0*49",
+				"orgLinesJoined": "!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69\r\n!AIVDM,2,2,5,B,88888888880,2*22",
+				"rawSentencesJoined": "!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69\r\n!AIVDM,2,2,5,B,88888888880,2*22"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 366904210,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69",
+						"!AIVDM,2,2,5,B,88888888880,2*22"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69",
+						"!AIVDM,2,2,5,B,88888888880,2*22"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 5,
+					"num": 2,
+					"channel": "B",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f888888888888880",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f888888888888880,0*49",
+					"orgLinesJoined": "!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69\r\n!AIVDM,2,2,5,B,88888888880,2*22",
+					"rawSentencesJoined": "!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69\r\n!AIVDM,2,2,5,B,88888888880,2*22"
+				},
+				"callsign": "WDB4957",
+				"name": "ANN T CHERAMIE      ",
+				"shipType": 52,
+				"dimBow": 10,
+				"dimStern": 25,
+				"dimPort": 5,
+				"dimStarboard": 5,
+				"version": 2,
+				"imo": 8983040,
+				"posType": 1,
+				"eta": 779584,
+				"draught": 45,
+				"dest": "OAK 68              ",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"etaDate": 1574974800000,
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69",
+				"!AIVDM,2,2,5,B,88888888880,2*22"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,5,B,55Mr3T`294P1L@;CWGL4pr1B0<PE84lTF222220l1@I556vE0;ChBp=f8888,0*69\r\n!AIVDM,2,2,5,B,88888888880,2*22",
+			"validMessage": true
+		},
+		"shipType": 52,
+		"shipName": "ANN T CHERAMIE      ",
+		"callsign": "WDB4957",
+		"imo": 8983040,
+		"shipDimensionBow": 10,
+		"shipDimensionStern": 25,
+		"shipDimensionPort": 5,
+		"shipDimensionStarboard": 5,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.79450166666666,
+			"longitude": -122.28377666666667,
+			"dto": {
+				"latitude": 37.79450166666666,
+				"longitude": -122.28377666666667
+			},
+			"longitudeAsString": "122 17.027W",
+			"latitudeAsString": "37 47.670N"
+		},
+		"trueHeading": 83.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "35Mr3TU000G@>c<E`4oBmBVH0EOb",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*0D",
+					"orgLinesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 366904210,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35Mr3TU000G@>c<E`4oBmBVH0EOb",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*0D",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22676701,
+						"rawLongitude": 195065190,
+						"latitudeDouble": 37.79450166666666,
+						"longitudeDouble": -122.28377666666667,
+						"latitude": 22676701,
+						"longitude": -73370266,
+						"geoLocation": {
+							"latitude": 37.79450166666666,
+							"longitude": -122.28377666666667,
+							"dto": {
+								"latitude": 37.79450166666666,
+								"longitude": -122.28377666666667
+							},
+							"longitudeAsString": "122 17.027W",
+							"latitudeAsString": "37 47.670N"
+						}
+					},
+					"cog": 725,
+					"trueHeading": 83,
+					"utcSec": 12,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 5502,
+					"numSlots": 5,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.79450166666666,
+						"longitude": -122.28377666666667,
+						"dto": {
+							"latitude": 37.79450166666666,
+							"longitude": -122.28377666666667
+						},
+						"longitudeAsString": "122 17.027W",
+						"latitudeAsString": "37 47.670N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.79450166666666,
+				"longitude": -122.28377666666667,
+				"dto": {
+					"latitude": 37.79450166666666,
+					"longitude": -122.28377666666667
+				},
+				"longitudeAsString": "122 17.027W",
+				"latitudeAsString": "37 47.670N"
+			},
+			"timestamp": -1,
+			"trueHeading": 83.0,
+			"courseOverGround": 72.5,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "35Mr3TU000G@>c<E`4oBmBVH0EOb",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*0D",
+					"orgLinesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 366904210,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35Mr3TU000G@>c<E`4oBmBVH0EOb",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*0D",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22676701,
+						"rawLongitude": 195065190,
+						"latitudeDouble": 37.79450166666666,
+						"longitudeDouble": -122.28377666666667,
+						"latitude": 22676701,
+						"longitude": -73370266,
+						"geoLocation": {
+							"latitude": 37.79450166666666,
+							"longitude": -122.28377666666667,
+							"dto": {
+								"latitude": 37.79450166666666,
+								"longitude": -122.28377666666667
+							},
+							"longitudeAsString": "122 17.027W",
+							"latitudeAsString": "37 47.670N"
+						}
+					},
+					"cog": 725,
+					"trueHeading": 83,
+					"utcSec": 12,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 5502,
+					"numSlots": 5,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.79450166666666,
+						"longitude": -122.28377666666667,
+						"dto": {
+							"latitude": 37.79450166666666,
+							"longitude": -122.28377666666667
+						},
+						"longitudeAsString": "122 17.027W",
+						"latitudeAsString": "37 47.670N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,35Mr3TU000G@>c<E`4oBmBVH0EOb,0*2E",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.79450166666666,
+				"longitude": -122.28377666666667,
+				"dto": {
+					"latitude": 37.79450166666666,
+					"longitude": -122.28377666666667
+				},
+				"longitudeAsString": "122 17.027W",
+				"latitudeAsString": "37 47.670N"
+			},
+			"timestamp": -1,
+			"trueHeading": 83.0,
+			"courseOverGround": 72.5,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 72.5,
+		"speedOverGround": 0.0,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 35,
+		"vesselBeam": 10
+	},
+	{
+		"mmsi": 538002511,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "38154Ci001G?wA8EVOfetTK60000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,38154Ci001G?wA8EVOfetTK60000,0*51",
+						"orgLinesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 3,
+						"repeat": 0,
+						"userId": 538002511,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+							],
+							"msgId": 3,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "A",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "38154Ci001G?wA8EVOfetTK60000",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,A,38154Ci001G?wA8EVOfetTK60000,0*51",
+							"orgLinesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+							"rawSentencesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						},
+						"navStatus": 1,
+						"rot": 0,
+						"sog": 1,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22650810,
+							"rawLongitude": 195033636,
+							"latitudeDouble": 37.75135,
+							"longitudeDouble": -122.33636666666667,
+							"latitude": 22650810,
+							"longitude": -73401820,
+							"geoLocation": {
+								"latitude": 37.75135,
+								"longitude": -122.33636666666667,
+								"dto": {
+									"latitude": 37.75135,
+									"longitude": -122.33636666666667
+								},
+								"longitudeAsString": "122 20.182W",
+								"latitudeAsString": "37 45.081N"
+							}
+						},
+						"cog": 3570,
+						"trueHeading": 141,
+						"utcSec": 35,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotIncrement": 0,
+						"numSlots": 0,
+						"keep": 0,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.75135,
+							"longitude": -122.33636666666667,
+							"dto": {
+								"latitude": 37.75135,
+								"longitude": -122.33636666666667
+							},
+							"longitudeAsString": "122 20.182W",
+							"latitudeAsString": "37 45.081N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.75135,
+					"longitude": -122.33636666666667,
+					"dto": {
+						"latitude": 37.75135,
+						"longitude": -122.33636666666667
+					},
+					"longitudeAsString": "122 20.182W",
+					"latitudeAsString": "37 45.081N"
+				},
+				"timestamp": -1,
+				"trueHeading": 141.0,
+				"courseOverGround": 357.0,
+				"speedOverGround": 0.1,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09",
+					"!AIVDM,2,2,9,B,88888888880,2*2E"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09",
+					"!AIVDM,2,2,9,B,88888888880,2*2E"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 9,
+				"num": 2,
+				"channel": "B",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp888888888888880",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp888888888888880,0*29",
+				"orgLinesJoined": "!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09\r\n!AIVDM,2,2,9,B,88888888880,2*2E",
+				"rawSentencesJoined": "!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09\r\n!AIVDM,2,2,9,B,88888888880,2*2E"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 538002511,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09",
+						"!AIVDM,2,2,9,B,88888888880,2*2E"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09",
+						"!AIVDM,2,2,9,B,88888888880,2*2E"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 9,
+					"num": 2,
+					"channel": "B",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp888888888888880",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp888888888888880,0*29",
+					"orgLinesJoined": "!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09\r\n!AIVDM,2,2,9,B,88888888880,2*2E",
+					"rawSentencesJoined": "!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09\r\n!AIVDM,2,2,9,B,88888888880,2*2E"
+				},
+				"callsign": "V7JF9  ",
+				"name": "AJAX                ",
+				"shipType": 70,
+				"dimBow": 195,
+				"dimStern": 30,
+				"dimPort": 10,
+				"dimStarboard": 22,
+				"version": 0,
+				"imo": 9296808,
+				"posType": 1,
+				"eta": 774592,
+				"draught": 88,
+				"dest": "USPBG               ",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"etaDate": 1574751600000,
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09",
+				"!AIVDM,2,2,9,B,88888888880,2*2E"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,9,B,58154Ch2=nrQKL`KV204`5R22222222222222216HHN:F6u70F5Dl0Qp8888,0*09\r\n!AIVDM,2,2,9,B,88888888880,2*2E",
+			"validMessage": true
+		},
+		"shipType": 70,
+		"shipName": "AJAX                ",
+		"callsign": "V7JF9  ",
+		"imo": 9296808,
+		"shipDimensionBow": 195,
+		"shipDimensionStern": 30,
+		"shipDimensionPort": 10,
+		"shipDimensionStarboard": 22,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.75135,
+			"longitude": -122.33636666666667,
+			"dto": {
+				"latitude": 37.75135,
+				"longitude": -122.33636666666667
+			},
+			"longitudeAsString": "122 20.182W",
+			"latitudeAsString": "37 45.081N"
+		},
+		"trueHeading": 141.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "38154Ci001G?wA8EVOfetTK60000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,38154Ci001G?wA8EVOfetTK60000,0*51",
+					"orgLinesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 538002511,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "38154Ci001G?wA8EVOfetTK60000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,38154Ci001G?wA8EVOfetTK60000,0*51",
+						"orgLinesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					},
+					"navStatus": 1,
+					"rot": 0,
+					"sog": 1,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22650810,
+						"rawLongitude": 195033636,
+						"latitudeDouble": 37.75135,
+						"longitudeDouble": -122.33636666666667,
+						"latitude": 22650810,
+						"longitude": -73401820,
+						"geoLocation": {
+							"latitude": 37.75135,
+							"longitude": -122.33636666666667,
+							"dto": {
+								"latitude": 37.75135,
+								"longitude": -122.33636666666667
+							},
+							"longitudeAsString": "122 20.182W",
+							"latitudeAsString": "37 45.081N"
+						}
+					},
+					"cog": 3570,
+					"trueHeading": 141,
+					"utcSec": 35,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 0,
+					"numSlots": 0,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.75135,
+						"longitude": -122.33636666666667,
+						"dto": {
+							"latitude": 37.75135,
+							"longitude": -122.33636666666667
+						},
+						"longitudeAsString": "122 20.182W",
+						"latitudeAsString": "37 45.081N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.75135,
+				"longitude": -122.33636666666667,
+				"dto": {
+					"latitude": 37.75135,
+					"longitude": -122.33636666666667
+				},
+				"longitudeAsString": "122 20.182W",
+				"latitudeAsString": "37 45.081N"
+			},
+			"timestamp": -1,
+			"trueHeading": 141.0,
+			"courseOverGround": 357.0,
+			"speedOverGround": 0.1,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "38154Ci001G?wA8EVOfetTK60000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,38154Ci001G?wA8EVOfetTK60000,0*51",
+					"orgLinesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 538002511,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "38154Ci001G?wA8EVOfetTK60000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,38154Ci001G?wA8EVOfetTK60000,0*51",
+						"orgLinesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+					},
+					"navStatus": 1,
+					"rot": 0,
+					"sog": 1,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22650810,
+						"rawLongitude": 195033636,
+						"latitudeDouble": 37.75135,
+						"longitudeDouble": -122.33636666666667,
+						"latitude": 22650810,
+						"longitude": -73401820,
+						"geoLocation": {
+							"latitude": 37.75135,
+							"longitude": -122.33636666666667,
+							"dto": {
+								"latitude": 37.75135,
+								"longitude": -122.33636666666667
+							},
+							"longitudeAsString": "122 20.182W",
+							"latitudeAsString": "37 45.081N"
+						}
+					},
+					"cog": 3570,
+					"trueHeading": 141,
+					"utcSec": 35,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 0,
+					"numSlots": 0,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.75135,
+						"longitude": -122.33636666666667,
+						"dto": {
+							"latitude": 37.75135,
+							"longitude": -122.33636666666667
+						},
+						"longitudeAsString": "122 20.182W",
+						"latitudeAsString": "37 45.081N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,38154Ci001G?wA8EVOfetTK60000,0*72",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.75135,
+				"longitude": -122.33636666666667,
+				"dto": {
+					"latitude": 37.75135,
+					"longitude": -122.33636666666667
+				},
+				"longitudeAsString": "122 20.182W",
+				"latitudeAsString": "37 45.081N"
+			},
+			"timestamp": -1,
+			"trueHeading": 141.0,
+			"courseOverGround": 357.0,
+			"speedOverGround": 0.1,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 357.0,
+		"speedOverGround": 0.1,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 225,
+		"vesselBeam": 32
+	},
+	{
+		"mmsi": 367396710,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "15NH7IP000G@>8hEWwb7dHN>0H3S",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*07",
+						"orgLinesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 1,
+						"repeat": 0,
+						"userId": 367396710,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+							],
+							"msgId": 1,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "B",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "15NH7IP000G@>8hEWwb7dHN>0H3S",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*07",
+							"orgLinesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+							"rawSentencesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						},
+						"navStatus": 0,
+						"rot": 0,
+						"sog": 0,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22675368,
+							"rawLongitude": 195064088,
+							"latitudeDouble": 37.79228,
+							"longitudeDouble": -122.28561333333333,
+							"latitude": 22675368,
+							"longitude": -73371368,
+							"geoLocation": {
+								"latitude": 37.79228,
+								"longitude": -122.28561333333333,
+								"dto": {
+									"latitude": 37.79228,
+									"longitude": -122.28561333333333
+								},
+								"longitudeAsString": "122 17.137W",
+								"latitudeAsString": "37 47.537N"
+							}
+						},
+						"cog": 1969,
+						"trueHeading": 271,
+						"utcSec": 7,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotTimeout": 6,
+						"subMessage": 227,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.79228,
+							"longitude": -122.28561333333333,
+							"dto": {
+								"latitude": 37.79228,
+								"longitude": -122.28561333333333
+							},
+							"longitudeAsString": "122 17.137W",
+							"latitudeAsString": "37 47.537N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.79228,
+					"longitude": -122.28561333333333,
+					"dto": {
+						"latitude": 37.79228,
+						"longitude": -122.28561333333333
+					},
+					"longitudeAsString": "122 17.137W",
+					"latitudeAsString": "37 47.537N"
+				},
+				"timestamp": -1,
+				"trueHeading": 271.0,
+				"courseOverGround": 196.9,
+				"speedOverGround": 0.0,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.79228,
+			"longitude": -122.28561333333333,
+			"dto": {
+				"latitude": 37.79228,
+				"longitude": -122.28561333333333
+			},
+			"longitudeAsString": "122 17.137W",
+			"latitudeAsString": "37 47.537N"
+		},
+		"trueHeading": 271.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					],
+					"msgId": 1,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "B",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "15NH7IP000G@>8hEWwb7dHN>0H3S",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*07",
+					"orgLinesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+					"rawSentencesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 1,
+					"repeat": 0,
+					"userId": 367396710,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "15NH7IP000G@>8hEWwb7dHN>0H3S",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*07",
+						"orgLinesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					},
+					"navStatus": 0,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22675368,
+						"rawLongitude": 195064088,
+						"latitudeDouble": 37.79228,
+						"longitudeDouble": -122.28561333333333,
+						"latitude": 22675368,
+						"longitude": -73371368,
+						"geoLocation": {
+							"latitude": 37.79228,
+							"longitude": -122.28561333333333,
+							"dto": {
+								"latitude": 37.79228,
+								"longitude": -122.28561333333333
+							},
+							"longitudeAsString": "122 17.137W",
+							"latitudeAsString": "37 47.537N"
+						}
+					},
+					"cog": 1969,
+					"trueHeading": 271,
+					"utcSec": 7,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotTimeout": 6,
+					"subMessage": 227,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.79228,
+						"longitude": -122.28561333333333,
+						"dto": {
+							"latitude": 37.79228,
+							"longitude": -122.28561333333333
+						},
+						"longitudeAsString": "122 17.137W",
+						"latitudeAsString": "37 47.537N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.79228,
+				"longitude": -122.28561333333333,
+				"dto": {
+					"latitude": 37.79228,
+					"longitude": -122.28561333333333
+				},
+				"longitudeAsString": "122 17.137W",
+				"latitudeAsString": "37 47.537N"
+			},
+			"timestamp": -1,
+			"trueHeading": 271.0,
+			"courseOverGround": 196.9,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					],
+					"msgId": 1,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "B",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "15NH7IP000G@>8hEWwb7dHN>0H3S",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*07",
+					"orgLinesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+					"rawSentencesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 1,
+					"repeat": 0,
+					"userId": 367396710,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "15NH7IP000G@>8hEWwb7dHN>0H3S",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*07",
+						"orgLinesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+					},
+					"navStatus": 0,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22675368,
+						"rawLongitude": 195064088,
+						"latitudeDouble": 37.79228,
+						"longitudeDouble": -122.28561333333333,
+						"latitude": 22675368,
+						"longitude": -73371368,
+						"geoLocation": {
+							"latitude": 37.79228,
+							"longitude": -122.28561333333333,
+							"dto": {
+								"latitude": 37.79228,
+								"longitude": -122.28561333333333
+							},
+							"longitudeAsString": "122 17.137W",
+							"latitudeAsString": "37 47.537N"
+						}
+					},
+					"cog": 1969,
+					"trueHeading": 271,
+					"utcSec": 7,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotTimeout": 6,
+					"subMessage": 227,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.79228,
+						"longitude": -122.28561333333333,
+						"dto": {
+							"latitude": 37.79228,
+							"longitude": -122.28561333333333
+						},
+						"longitudeAsString": "122 17.137W",
+						"latitudeAsString": "37 47.537N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,B,15NH7IP000G@>8hEWwb7dHN>0H3S,0*24",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.79228,
+				"longitude": -122.28561333333333,
+				"dto": {
+					"latitude": 37.79228,
+					"longitude": -122.28561333333333
+				},
+				"longitudeAsString": "122 17.137W",
+				"latitudeAsString": "37 47.537N"
+			},
+			"timestamp": -1,
+			"trueHeading": 271.0,
+			"courseOverGround": 196.9,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 196.9,
+		"speedOverGround": 0.0,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		]
+	},
+	{
+		"mmsi": 366365000,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35MI9B5001o@:LDE`205mpQj0Ddb",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*23",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 3,
+						"repeat": 0,
+						"userId": 366365000,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+							],
+							"msgId": 3,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "A",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "35MI9B5001o@:LDE`205mpQj0Ddb",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*23",
+							"orgLinesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+							"rawSentencesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						},
+						"navStatus": 5,
+						"rot": 0,
+						"sog": 1,
+						"posAcc": 1,
+						"pos": {
+							"rawLatitude": 22675968,
+							"rawLongitude": 195056522,
+							"latitudeDouble": 37.793279999999999,
+							"longitudeDouble": -122.29822333333333,
+							"latitude": 22675968,
+							"longitude": -73378934,
+							"geoLocation": {
+								"latitude": 37.793279999999999,
+								"longitude": -122.29822333333333,
+								"dto": {
+									"latitude": 37.793279999999999,
+									"longitude": -122.29822333333333
+								},
+								"longitudeAsString": "122 17.893W",
+								"latitudeAsString": "37 47.597N"
+							}
+						},
+						"cog": 1495,
+						"trueHeading": 272,
+						"utcSec": 57,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotIncrement": 5298,
+						"numSlots": 5,
+						"keep": 0,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.793279999999999,
+							"longitude": -122.29822333333333,
+							"dto": {
+								"latitude": 37.793279999999999,
+								"longitude": -122.29822333333333
+							},
+							"longitudeAsString": "122 17.893W",
+							"latitudeAsString": "37 47.597N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.793279999999999,
+					"longitude": -122.29822333333333,
+					"dto": {
+						"latitude": 37.793279999999999,
+						"longitude": -122.29822333333333
+					},
+					"longitudeAsString": "122 17.893W",
+					"latitudeAsString": "37 47.597N"
+				},
+				"timestamp": -1,
+				"trueHeading": 272.0,
+				"courseOverGround": 149.5,
+				"speedOverGround": 0.1,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52",
+					"!AIVDM,2,2,8,B,88888888880,2*2F"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52",
+					"!AIVDM,2,2,8,B,88888888880,2*2F"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 8,
+				"num": 2,
+				"channel": "B",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp88888888888880",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp88888888888880,0*72",
+				"orgLinesJoined": "!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52\r\n!AIVDM,2,2,8,B,88888888880,2*2F",
+				"rawSentencesJoined": "!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52\r\n!AIVDM,2,2,8,B,88888888880,2*2F"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 366365000,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52",
+						"!AIVDM,2,2,8,B,88888888880,2*2F"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52",
+						"!AIVDM,2,2,8,B,88888888880,2*2F"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 8,
+					"num": 2,
+					"channel": "B",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp88888888888880",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp88888888888880,0*72",
+					"orgLinesJoined": "!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52\r\n!AIVDM,2,2,8,B,88888888880,2*2F",
+					"rawSentencesJoined": "!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52\r\n!AIVDM,2,2,8,B,88888888880,2*2F"
+				},
+				"callsign": "KHRC   ",
+				"name": "MATSONIA            ",
+				"shipType": 70,
+				"dimBow": 152,
+				"dimStern": 79,
+				"dimPort": 22,
+				"dimStarboard": 10,
+				"version": 1,
+				"imo": 7334204,
+				"posType": 1,
+				"eta": 773519,
+				"draught": 90,
+				"dest": "OAK 63              ",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"etaDate": 1574720100000,
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52",
+				"!AIVDM,2,2,8,B,88888888880,2*2F"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,8,B,55MI9B41grChdQ8>220l5A<tpT62222222222216C1?F:6tn?FShBp=dp888,0*52\r\n!AIVDM,2,2,8,B,88888888880,2*2F",
+			"validMessage": true
+		},
+		"shipType": 70,
+		"shipName": "MATSONIA            ",
+		"callsign": "KHRC   ",
+		"imo": 7334204,
+		"shipDimensionBow": 152,
+		"shipDimensionStern": 79,
+		"shipDimensionPort": 22,
+		"shipDimensionStarboard": 10,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.793279999999999,
+			"longitude": -122.29822333333333,
+			"dto": {
+				"latitude": 37.793279999999999,
+				"longitude": -122.29822333333333
+			},
+			"longitudeAsString": "122 17.893W",
+			"latitudeAsString": "37 47.597N"
+		},
+		"trueHeading": 272.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "35MI9B5001o@:LDE`205mpQj0Ddb",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*23",
+					"orgLinesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 366365000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35MI9B5001o@:LDE`205mpQj0Ddb",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*23",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 1,
+					"posAcc": 1,
+					"pos": {
+						"rawLatitude": 22675968,
+						"rawLongitude": 195056522,
+						"latitudeDouble": 37.793279999999999,
+						"longitudeDouble": -122.29822333333333,
+						"latitude": 22675968,
+						"longitude": -73378934,
+						"geoLocation": {
+							"latitude": 37.793279999999999,
+							"longitude": -122.29822333333333,
+							"dto": {
+								"latitude": 37.793279999999999,
+								"longitude": -122.29822333333333
+							},
+							"longitudeAsString": "122 17.893W",
+							"latitudeAsString": "37 47.597N"
+						}
+					},
+					"cog": 1495,
+					"trueHeading": 272,
+					"utcSec": 57,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 5298,
+					"numSlots": 5,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.793279999999999,
+						"longitude": -122.29822333333333,
+						"dto": {
+							"latitude": 37.793279999999999,
+							"longitude": -122.29822333333333
+						},
+						"longitudeAsString": "122 17.893W",
+						"latitudeAsString": "37 47.597N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.793279999999999,
+				"longitude": -122.29822333333333,
+				"dto": {
+					"latitude": 37.793279999999999,
+					"longitude": -122.29822333333333
+				},
+				"longitudeAsString": "122 17.893W",
+				"latitudeAsString": "37 47.597N"
+			},
+			"timestamp": -1,
+			"trueHeading": 272.0,
+			"courseOverGround": 149.5,
+			"speedOverGround": 0.1,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "35MI9B5001o@:LDE`205mpQj0Ddb",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*23",
+					"orgLinesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 366365000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35MI9B5001o@:LDE`205mpQj0Ddb",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*23",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 1,
+					"posAcc": 1,
+					"pos": {
+						"rawLatitude": 22675968,
+						"rawLongitude": 195056522,
+						"latitudeDouble": 37.793279999999999,
+						"longitudeDouble": -122.29822333333333,
+						"latitude": 22675968,
+						"longitude": -73378934,
+						"geoLocation": {
+							"latitude": 37.793279999999999,
+							"longitude": -122.29822333333333,
+							"dto": {
+								"latitude": 37.793279999999999,
+								"longitude": -122.29822333333333
+							},
+							"longitudeAsString": "122 17.893W",
+							"latitudeAsString": "37 47.597N"
+						}
+					},
+					"cog": 1495,
+					"trueHeading": 272,
+					"utcSec": 57,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 5298,
+					"numSlots": 5,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.793279999999999,
+						"longitude": -122.29822333333333,
+						"dto": {
+							"latitude": 37.793279999999999,
+							"longitude": -122.29822333333333
+						},
+						"longitudeAsString": "122 17.893W",
+						"latitudeAsString": "37 47.597N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,35MI9B5001o@:LDE`205mpQj0Ddb,0*00",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.793279999999999,
+				"longitude": -122.29822333333333,
+				"dto": {
+					"latitude": 37.793279999999999,
+					"longitude": -122.29822333333333
+				},
+				"longitudeAsString": "122 17.893W",
+				"latitudeAsString": "37 47.597N"
+			},
+			"timestamp": -1,
+			"trueHeading": 272.0,
+			"courseOverGround": 149.5,
+			"speedOverGround": 0.1,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 149.5,
+		"speedOverGround": 0.1,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 231,
+		"vesselBeam": 32
+	},
+	{
+		"mmsi": 636018270,
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A",
+					"!AIVDM,2,2,1,B,88888888880,2*26"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A",
+					"!AIVDM,2,2,1,B,88888888880,2*26"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 1,
+				"num": 2,
+				"channel": "B",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH88888888888880",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH88888888888880,0*5A",
+				"orgLinesJoined": "!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A\r\n!AIVDM,2,2,1,B,88888888880,2*26",
+				"rawSentencesJoined": "!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A\r\n!AIVDM,2,2,1,B,88888888880,2*26"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 636018270,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A",
+						"!AIVDM,2,2,1,B,88888888880,2*26"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A",
+						"!AIVDM,2,2,1,B,88888888880,2*26"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 1,
+					"num": 2,
+					"channel": "B",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH88888888888880",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH88888888888880,0*5A",
+					"orgLinesJoined": "!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A\r\n!AIVDM,2,2,1,B,88888888880,2*26",
+					"rawSentencesJoined": "!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A\r\n!AIVDM,2,2,1,B,88888888880,2*26"
+				},
+				"callsign": "D5OY5  ",
+				"name": "NEW MOMENTUM        ",
+				"shipType": 70,
+				"dimBow": 157,
+				"dimStern": 23,
+				"dimPort": 18,
+				"dimStarboard": 12,
+				"version": 2,
+				"imo": 9804954,
+				"posType": 1,
+				"eta": 752960,
+				"draught": 101,
+				"dest": "US CRM              ",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"etaDate": 1573851600000,
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A",
+				"!AIVDM,2,2,1,B,88888888880,2*26"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,1,B,59NSNG`2EW9`CDuWF20pEN0ltlDqADn222222216C`GB<6om0IEDp0lSH888,0*7A\r\n!AIVDM,2,2,1,B,88888888880,2*26",
+			"validMessage": true
+		},
+		"shipType": 70,
+		"shipName": "NEW MOMENTUM        ",
+		"callsign": "D5OY5  ",
+		"imo": 9804954,
+		"shipDimensionBow": 157,
+		"shipDimensionStern": 23,
+		"shipDimensionPort": 18,
+		"shipDimensionStarboard": 12,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": 0,
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1970,
+			1,
+			1,
+			0,
+			0
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 180,
+		"vesselBeam": 30
+	},
+	{
+		"mmsi": 538004167,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "3815:ii000G?tQlEVmE3c4Lr0000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,3815:ii000G?tQlEVmE3c4Lr0000,0*53",
+						"orgLinesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 3,
+						"repeat": 0,
+						"userId": 538004167,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+							],
+							"msgId": 3,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "B",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "3815:ii000G?tQlEVmE3c4Lr0000",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,B,3815:ii000G?tQlEVmE3c4Lr0000,0*53",
+							"orgLinesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+							"rawSentencesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						},
+						"navStatus": 1,
+						"rot": 0,
+						"sog": 0,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22656340,
+							"rawLongitude": 195028026,
+							"latitudeDouble": 37.76056666666667,
+							"longitudeDouble": -122.34571666666668,
+							"latitude": 22656340,
+							"longitude": -73407430,
+							"geoLocation": {
+								"latitude": 37.76056666666667,
+								"longitude": -122.34571666666668,
+								"dto": {
+									"latitude": 37.76056666666667,
+									"longitude": -122.34571666666668
+								},
+								"longitudeAsString": "122 20.743W",
+								"latitudeAsString": "37 45.634N"
+							}
+						},
+						"cog": 940,
+						"trueHeading": 142,
+						"utcSec": 29,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotIncrement": 0,
+						"numSlots": 0,
+						"keep": 0,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.76056666666667,
+							"longitude": -122.34571666666668,
+							"dto": {
+								"latitude": 37.76056666666667,
+								"longitude": -122.34571666666668
+							},
+							"longitudeAsString": "122 20.743W",
+							"latitudeAsString": "37 45.634N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.76056666666667,
+					"longitude": -122.34571666666668,
+					"dto": {
+						"latitude": 37.76056666666667,
+						"longitude": -122.34571666666668
+					},
+					"longitudeAsString": "122 20.743W",
+					"latitudeAsString": "37 45.634N"
+				},
+				"timestamp": -1,
+				"trueHeading": 142.0,
+				"courseOverGround": 94.0,
+				"speedOverGround": 0.0,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.76056666666667,
+			"longitude": -122.34571666666668,
+			"dto": {
+				"latitude": 37.76056666666667,
+				"longitude": -122.34571666666668
+			},
+			"longitudeAsString": "122 20.743W",
+			"latitudeAsString": "37 45.634N"
+		},
+		"trueHeading": 142.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "B",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "3815:ii000G?tQlEVmE3c4Lr0000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,B,3815:ii000G?tQlEVmE3c4Lr0000,0*53",
+					"orgLinesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+					"rawSentencesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 538004167,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "3815:ii000G?tQlEVmE3c4Lr0000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,3815:ii000G?tQlEVmE3c4Lr0000,0*53",
+						"orgLinesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					},
+					"navStatus": 1,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22656340,
+						"rawLongitude": 195028026,
+						"latitudeDouble": 37.76056666666667,
+						"longitudeDouble": -122.34571666666668,
+						"latitude": 22656340,
+						"longitude": -73407430,
+						"geoLocation": {
+							"latitude": 37.76056666666667,
+							"longitude": -122.34571666666668,
+							"dto": {
+								"latitude": 37.76056666666667,
+								"longitude": -122.34571666666668
+							},
+							"longitudeAsString": "122 20.743W",
+							"latitudeAsString": "37 45.634N"
+						}
+					},
+					"cog": 940,
+					"trueHeading": 142,
+					"utcSec": 29,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 0,
+					"numSlots": 0,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.76056666666667,
+						"longitude": -122.34571666666668,
+						"dto": {
+							"latitude": 37.76056666666667,
+							"longitude": -122.34571666666668
+						},
+						"longitudeAsString": "122 20.743W",
+						"latitudeAsString": "37 45.634N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.76056666666667,
+				"longitude": -122.34571666666668,
+				"dto": {
+					"latitude": 37.76056666666667,
+					"longitude": -122.34571666666668
+				},
+				"longitudeAsString": "122 20.743W",
+				"latitudeAsString": "37 45.634N"
+			},
+			"timestamp": -1,
+			"trueHeading": 142.0,
+			"courseOverGround": 94.0,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "B",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "3815:ii000G?tQlEVmE3c4Lr0000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,B,3815:ii000G?tQlEVmE3c4Lr0000,0*53",
+					"orgLinesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+					"rawSentencesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 538004167,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "B",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "3815:ii000G?tQlEVmE3c4Lr0000",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,B,3815:ii000G?tQlEVmE3c4Lr0000,0*53",
+						"orgLinesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+						"rawSentencesJoined": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+					},
+					"navStatus": 1,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22656340,
+						"rawLongitude": 195028026,
+						"latitudeDouble": 37.76056666666667,
+						"longitudeDouble": -122.34571666666668,
+						"latitude": 22656340,
+						"longitude": -73407430,
+						"geoLocation": {
+							"latitude": 37.76056666666667,
+							"longitude": -122.34571666666668,
+							"dto": {
+								"latitude": 37.76056666666667,
+								"longitude": -122.34571666666668
+							},
+							"longitudeAsString": "122 20.743W",
+							"latitudeAsString": "37 45.634N"
+						}
+					},
+					"cog": 940,
+					"trueHeading": 142,
+					"utcSec": 29,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 0,
+					"numSlots": 0,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.76056666666667,
+						"longitude": -122.34571666666668,
+						"dto": {
+							"latitude": 37.76056666666667,
+							"longitude": -122.34571666666668
+						},
+						"longitudeAsString": "122 20.743W",
+						"latitudeAsString": "37 45.634N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,B,3815:ii000G?tQlEVmE3c4Lr0000,0*70",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.76056666666667,
+				"longitude": -122.34571666666668,
+				"dto": {
+					"latitude": 37.76056666666667,
+					"longitude": -122.34571666666668
+				},
+				"longitudeAsString": "122 20.743W",
+				"latitudeAsString": "37 45.634N"
+			},
+			"timestamp": -1,
+			"trueHeading": 142.0,
+			"courseOverGround": 94.0,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 94.0,
+		"speedOverGround": 0.0,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		]
+	},
+	{
+		"mmsi": 636012800,
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01",
+					"!AIVDM,2,2,0,A,Sp888888880,2*07"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01",
+					"!AIVDM,2,2,0,A,Sp888888880,2*07"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 0,
+				"num": 2,
+				"channel": "A",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDliSp888888880",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDliSp888888880,0*02",
+				"orgLinesJoined": "!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01\r\n!AIVDM,2,2,0,A,Sp888888880,2*07",
+				"rawSentencesJoined": "!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01\r\n!AIVDM,2,2,0,A,Sp888888880,2*07"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 636012800,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01",
+						"!AIVDM,2,2,0,A,Sp888888880,2*07"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01",
+						"!AIVDM,2,2,0,A,Sp888888880,2*07"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 0,
+					"num": 2,
+					"channel": "A",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDliSp888888880",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDliSp888888880,0*02",
+					"orgLinesJoined": "!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01\r\n!AIVDM,2,2,0,A,Sp888888880,2*07",
+					"rawSentencesJoined": "!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01\r\n!AIVDM,2,2,0,A,Sp888888880,2*07"
+				},
+				"callsign": "A8HY4  ",
+				"name": "NS STREAM           ",
+				"shipType": 89,
+				"dimBow": 156,
+				"dimStern": 26,
+				"dimPort": 16,
+				"dimStarboard": 16,
+				"version": 0,
+				"imo": 9318541,
+				"posType": 1,
+				"eta": 779520,
+				"draught": 80,
+				"dest": "USRCH>USSFO         ",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"etaDate": 1574971200000,
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01",
+				"!AIVDM,2,2,0,A,Sp888888880,2*07"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,0,A,59NS9002><8l7PQWB20q>1=A8D4n22222222221ICPJ@@6vD0D5DlPj?UDli,0*01\r\n!AIVDM,2,2,0,A,Sp888888880,2*07",
+			"validMessage": true
+		},
+		"shipType": 89,
+		"shipName": "NS STREAM           ",
+		"callsign": "A8HY4  ",
+		"imo": 9318541,
+		"shipDimensionBow": 156,
+		"shipDimensionStern": 26,
+		"shipDimensionPort": 16,
+		"shipDimensionStarboard": 16,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": 0,
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1970,
+			1,
+			1,
+			0,
+			0
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 182,
+		"vesselBeam": 32
+	},
+	{
+		"mmsi": 477588100,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "177MbQ0vhqG?sRHEVSm6@E1<0<1R",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*78",
+						"orgLinesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 1,
+						"repeat": 0,
+						"userId": 477588100,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+							],
+							"msgId": 1,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "A",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "177MbQ0vhqG?sRHEVSm6@E1<0<1R",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*78",
+							"orgLinesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+							"rawSentencesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						},
+						"navStatus": 0,
+						"rot": 251,
+						"sog": 57,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22651860,
+							"rawLongitude": 195025996,
+							"latitudeDouble": 37.7531,
+							"longitudeDouble": -122.34909999999999,
+							"latitude": 22651860,
+							"longitude": -73409460,
+							"geoLocation": {
+								"latitude": 37.7531,
+								"longitude": -122.34909999999999,
+								"dto": {
+									"latitude": 37.7531,
+									"longitude": -122.34909999999999
+								},
+								"longitudeAsString": "122 20.946W",
+								"latitudeAsString": "37 45.186N"
+							}
+						},
+						"cog": 1601,
+						"trueHeading": 160,
+						"utcSec": 38,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotTimeout": 3,
+						"subMessage": 98,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": -1.1160072,
+						"validPosition": {
+							"latitude": 37.7531,
+							"longitude": -122.34909999999999,
+							"dto": {
+								"latitude": 37.7531,
+								"longitude": -122.34909999999999
+							},
+							"longitudeAsString": "122 20.946W",
+							"latitudeAsString": "37 45.186N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.7531,
+					"longitude": -122.34909999999999,
+					"dto": {
+						"latitude": 37.7531,
+						"longitude": -122.34909999999999
+					},
+					"longitudeAsString": "122 20.946W",
+					"latitudeAsString": "37 45.186N"
+				},
+				"timestamp": -1,
+				"trueHeading": 160.0,
+				"courseOverGround": 160.1,
+				"speedOverGround": 5.7,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.7531,
+			"longitude": -122.34909999999999,
+			"dto": {
+				"latitude": 37.7531,
+				"longitude": -122.34909999999999
+			},
+			"longitudeAsString": "122 20.946W",
+			"latitudeAsString": "37 45.186N"
+		},
+		"trueHeading": 160.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					],
+					"msgId": 1,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "177MbQ0vhqG?sRHEVSm6@E1<0<1R",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*78",
+					"orgLinesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 1,
+					"repeat": 0,
+					"userId": 477588100,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "177MbQ0vhqG?sRHEVSm6@E1<0<1R",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*78",
+						"orgLinesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					},
+					"navStatus": 0,
+					"rot": 251,
+					"sog": 57,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22651860,
+						"rawLongitude": 195025996,
+						"latitudeDouble": 37.7531,
+						"longitudeDouble": -122.34909999999999,
+						"latitude": 22651860,
+						"longitude": -73409460,
+						"geoLocation": {
+							"latitude": 37.7531,
+							"longitude": -122.34909999999999,
+							"dto": {
+								"latitude": 37.7531,
+								"longitude": -122.34909999999999
+							},
+							"longitudeAsString": "122 20.946W",
+							"latitudeAsString": "37 45.186N"
+						}
+					},
+					"cog": 1601,
+					"trueHeading": 160,
+					"utcSec": 38,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotTimeout": 3,
+					"subMessage": 98,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": -1.1160072,
+					"validPosition": {
+						"latitude": 37.7531,
+						"longitude": -122.34909999999999,
+						"dto": {
+							"latitude": 37.7531,
+							"longitude": -122.34909999999999
+						},
+						"longitudeAsString": "122 20.946W",
+						"latitudeAsString": "37 45.186N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.7531,
+				"longitude": -122.34909999999999,
+				"dto": {
+					"latitude": 37.7531,
+					"longitude": -122.34909999999999
+				},
+				"longitudeAsString": "122 20.946W",
+				"latitudeAsString": "37 45.186N"
+			},
+			"timestamp": -1,
+			"trueHeading": 160.0,
+			"courseOverGround": 160.1,
+			"speedOverGround": 5.7,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					],
+					"msgId": 1,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "177MbQ0vhqG?sRHEVSm6@E1<0<1R",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*78",
+					"orgLinesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 1,
+					"repeat": 0,
+					"userId": 477588100,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+						],
+						"msgId": 1,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "177MbQ0vhqG?sRHEVSm6@E1<0<1R",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*78",
+						"orgLinesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+					},
+					"navStatus": 0,
+					"rot": 251,
+					"sog": 57,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22651860,
+						"rawLongitude": 195025996,
+						"latitudeDouble": 37.7531,
+						"longitudeDouble": -122.34909999999999,
+						"latitude": 22651860,
+						"longitude": -73409460,
+						"geoLocation": {
+							"latitude": 37.7531,
+							"longitude": -122.34909999999999,
+							"dto": {
+								"latitude": 37.7531,
+								"longitude": -122.34909999999999
+							},
+							"longitudeAsString": "122 20.946W",
+							"latitudeAsString": "37 45.186N"
+						}
+					},
+					"cog": 1601,
+					"trueHeading": 160,
+					"utcSec": 38,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotTimeout": 3,
+					"subMessage": 98,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": -1.1160072,
+					"validPosition": {
+						"latitude": 37.7531,
+						"longitude": -122.34909999999999,
+						"dto": {
+							"latitude": 37.7531,
+							"longitude": -122.34909999999999
+						},
+						"longitudeAsString": "122 20.946W",
+						"latitudeAsString": "37 45.186N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,177MbQ0vhqG?sRHEVSm6@E1<0<1R,0*5B",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.7531,
+				"longitude": -122.34909999999999,
+				"dto": {
+					"latitude": 37.7531,
+					"longitude": -122.34909999999999
+				},
+				"longitudeAsString": "122 20.946W",
+				"latitudeAsString": "37 45.186N"
+			},
+			"timestamp": -1,
+			"trueHeading": 160.0,
+			"courseOverGround": 160.1,
+			"speedOverGround": 5.7,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 160.1,
+		"speedOverGround": 5.7,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		]
+	},
+	{
+		"mmsi": 367167000,
+		"trackingReports": [
+			{
+				"packet": {
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35N:665000G@8C<EWDfqR30T0Dq:",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35N:665000G@8C<EWDfqR30T0Dq:,0*49",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					},
+					"tags": {
+						"empty": true,
+						"commentBlock": {
+							"totalLines": -1,
+							"empty": true,
+							"size": 0,
+							"finished": true
+						}
+					},
+					"aisMessage": {
+						"msgId": 3,
+						"repeat": 0,
+						"userId": 367167000,
+						"vdm": {
+							"orgLines": [
+								"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+							],
+							"rawSentences": [
+								"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+							],
+							"msgId": 3,
+							"total": 1,
+							"sequence": 0,
+							"num": 1,
+							"channel": "A",
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"completePacket": true,
+							"sixbitString": "35N:665000G@8C<EWDfqR30T0Dq:",
+							"padBits": 0,
+							"ownMessage": false,
+							"encoded": "!nullVDM,1,1,0,A,35N:665000G@8C<EWDfqR30T0Dq:,0*49",
+							"orgLinesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+							"rawSentencesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						},
+						"navStatus": 5,
+						"rot": 0,
+						"sog": 0,
+						"posAcc": 0,
+						"pos": {
+							"rawLatitude": 22664379,
+							"rawLongitude": 195052134,
+							"latitudeDouble": 37.773965,
+							"longitudeDouble": -122.30553666666667,
+							"latitude": 22664379,
+							"longitude": -73383322,
+							"geoLocation": {
+								"latitude": 37.773965,
+								"longitude": -122.30553666666667,
+								"dto": {
+									"latitude": 37.773965,
+									"longitude": -122.30553666666667
+								},
+								"longitudeAsString": "122 18.332W",
+								"latitudeAsString": "37 46.438N"
+							}
+						},
+						"cog": 2440,
+						"trueHeading": 96,
+						"utcSec": 18,
+						"specialManIndicator": 0,
+						"spare": 0,
+						"raim": 0,
+						"syncState": 0,
+						"slotIncrement": 5348,
+						"numSlots": 5,
+						"keep": 0,
+						"encoded": {
+							"binArray": {
+								"length": 168,
+								"readPtr": 0
+							},
+							"padBits": 0,
+							"length": 168
+						},
+						"rotValid": true,
+						"sensorRot": 0.0,
+						"validPosition": {
+							"latitude": 37.773965,
+							"longitude": -122.30553666666667,
+							"dto": {
+								"latitude": 37.773965,
+								"longitude": -122.30553666666667
+							},
+							"longitudeAsString": "122 18.332W",
+							"latitudeAsString": "37 46.438N"
+						},
+						"positionValid": true,
+						"sogValid": true,
+						"headingValid": true,
+						"cogValid": true,
+						"targetType": "A"
+					},
+					"stringMessageLines": [
+						"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					],
+					"bestTimestamp": -1,
+					"stringMessage": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+					"validMessage": true
+				},
+				"position": {
+					"latitude": 37.773965,
+					"longitude": -122.30553666666667,
+					"dto": {
+						"latitude": 37.773965,
+						"longitude": -122.30553666666667
+					},
+					"longitudeAsString": "122 18.332W",
+					"latitudeAsString": "37 46.438N"
+				},
+				"timestamp": -1,
+				"trueHeading": 96.0,
+				"courseOverGround": 244.0,
+				"speedOverGround": 0.0,
+				"timestampTyped": [
+					1969,
+					12,
+					31,
+					23,
+					59,
+					59,
+					999000000
+				]
+			}
+		],
+		"lastStaticReport": {
+			"vdm": {
+				"orgLines": [
+					"!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17",
+					"!AIVDM,2,2,4,A,00000000000,2*20"
+				],
+				"rawSentences": [
+					"!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17",
+					"!AIVDM,2,2,4,A,00000000000,2*20"
+				],
+				"msgId": 5,
+				"total": 2,
+				"sequence": 4,
+				"num": 2,
+				"channel": "A",
+				"binArray": {
+					"length": 424,
+					"readPtr": 424
+				},
+				"completePacket": true,
+				"sixbitString": "55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht0000000000000000000000",
+				"padBits": 0,
+				"ownMessage": false,
+				"encoded": "!nullVDM,2,2,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht0000000000000000000000,0*37",
+				"orgLinesJoined": "!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17\r\n!AIVDM,2,2,4,A,00000000000,2*20",
+				"rawSentencesJoined": "!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17\r\n!AIVDM,2,2,4,A,00000000000,2*20"
+			},
+			"tags": {
+				"empty": true,
+				"commentBlock": {
+					"totalLines": -1,
+					"empty": true,
+					"size": 0,
+					"finished": true
+				}
+			},
+			"aisMessage": {
+				"msgId": 5,
+				"repeat": 0,
+				"userId": 367167000,
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17",
+						"!AIVDM,2,2,4,A,00000000000,2*20"
+					],
+					"rawSentences": [
+						"!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17",
+						"!AIVDM,2,2,4,A,00000000000,2*20"
+					],
+					"msgId": 5,
+					"total": 2,
+					"sequence": 4,
+					"num": 2,
+					"channel": "A",
+					"binArray": {
+						"length": 424,
+						"readPtr": 424
+					},
+					"completePacket": true,
+					"sixbitString": "55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht0000000000000000000000",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,2,2,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht0000000000000000000000,0*37",
+					"orgLinesJoined": "!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17\r\n!AIVDM,2,2,4,A,00000000000,2*20",
+					"rawSentencesJoined": "!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17\r\n!AIVDM,2,2,4,A,00000000000,2*20"
+				},
+				"callsign": "KGYE   ",
+				"name": "ADM. WM.M. CALLAGHAN",
+				"shipType": 70,
+				"dimBow": 151,
+				"dimStern": 57,
+				"dimPort": 13,
+				"dimStarboard": 15,
+				"version": 2,
+				"imo": 6801664,
+				"posType": 1,
+				"eta": 1596,
+				"draught": 0,
+				"dest": "@@@@@@@@@@@@@@@@@@@@",
+				"dte": 0,
+				"spare": 0,
+				"encoded": {
+					"binArray": {
+						"length": 424,
+						"readPtr": 0
+					},
+					"padBits": 0,
+					"length": 424
+				},
+				"targetType": "A"
+			},
+			"stringMessageLines": [
+				"!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17",
+				"!AIVDM,2,2,4,A,00000000000,2*20"
+			],
+			"bestTimestamp": -1,
+			"stringMessage": "!AIVDM,2,1,4,A,55N:6681Wj@0dMTF2204@nr1Lnpnr0<4hh4LP4q6Bpq=?40Ht00000000000,0*17\r\n!AIVDM,2,2,4,A,00000000000,2*20",
+			"validMessage": true
+		},
+		"shipType": 70,
+		"shipName": "ADM. WM.M. CALLAGHAN",
+		"callsign": "KGYE   ",
+		"imo": 6801664,
+		"shipDimensionBow": 151,
+		"shipDimensionStern": 57,
+		"shipDimensionPort": 13,
+		"shipDimensionStarboard": 15,
+		"timeOfLastUpdate": -1,
+		"timeOfLastPositionReport": -1,
+		"position": {
+			"latitude": 37.773965,
+			"longitude": -122.30553666666667,
+			"dto": {
+				"latitude": 37.773965,
+				"longitude": -122.30553666666667
+			},
+			"longitudeAsString": "122 18.332W",
+			"latitudeAsString": "37 46.438N"
+		},
+		"trueHeading": 96.0,
+		"newestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "35N:665000G@8C<EWDfqR30T0Dq:",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,35N:665000G@8C<EWDfqR30T0Dq:,0*49",
+					"orgLinesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 367167000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35N:665000G@8C<EWDfqR30T0Dq:",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35N:665000G@8C<EWDfqR30T0Dq:,0*49",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22664379,
+						"rawLongitude": 195052134,
+						"latitudeDouble": 37.773965,
+						"longitudeDouble": -122.30553666666667,
+						"latitude": 22664379,
+						"longitude": -73383322,
+						"geoLocation": {
+							"latitude": 37.773965,
+							"longitude": -122.30553666666667,
+							"dto": {
+								"latitude": 37.773965,
+								"longitude": -122.30553666666667
+							},
+							"longitudeAsString": "122 18.332W",
+							"latitudeAsString": "37 46.438N"
+						}
+					},
+					"cog": 2440,
+					"trueHeading": 96,
+					"utcSec": 18,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 5348,
+					"numSlots": 5,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.773965,
+						"longitude": -122.30553666666667,
+						"dto": {
+							"latitude": 37.773965,
+							"longitude": -122.30553666666667
+						},
+						"longitudeAsString": "122 18.332W",
+						"latitudeAsString": "37 46.438N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.773965,
+				"longitude": -122.30553666666667,
+				"dto": {
+					"latitude": 37.773965,
+					"longitude": -122.30553666666667
+				},
+				"longitudeAsString": "122 18.332W",
+				"latitudeAsString": "37 46.438N"
+			},
+			"timestamp": -1,
+			"trueHeading": 96.0,
+			"courseOverGround": 244.0,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"oldestTrackingReport": {
+			"packet": {
+				"vdm": {
+					"orgLines": [
+						"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					],
+					"rawSentences": [
+						"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					],
+					"msgId": 3,
+					"total": 1,
+					"sequence": 0,
+					"num": 1,
+					"channel": "A",
+					"binArray": {
+						"length": 168,
+						"readPtr": 0
+					},
+					"completePacket": true,
+					"sixbitString": "35N:665000G@8C<EWDfqR30T0Dq:",
+					"padBits": 0,
+					"ownMessage": false,
+					"encoded": "!nullVDM,1,1,0,A,35N:665000G@8C<EWDfqR30T0Dq:,0*49",
+					"orgLinesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+					"rawSentencesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+				},
+				"tags": {
+					"empty": true,
+					"commentBlock": {
+						"totalLines": -1,
+						"empty": true,
+						"size": 0,
+						"finished": true
+					}
+				},
+				"aisMessage": {
+					"msgId": 3,
+					"repeat": 0,
+					"userId": 367167000,
+					"vdm": {
+						"orgLines": [
+							"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						],
+						"rawSentences": [
+							"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+						],
+						"msgId": 3,
+						"total": 1,
+						"sequence": 0,
+						"num": 1,
+						"channel": "A",
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"completePacket": true,
+						"sixbitString": "35N:665000G@8C<EWDfqR30T0Dq:",
+						"padBits": 0,
+						"ownMessage": false,
+						"encoded": "!nullVDM,1,1,0,A,35N:665000G@8C<EWDfqR30T0Dq:,0*49",
+						"orgLinesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+						"rawSentencesJoined": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+					},
+					"navStatus": 5,
+					"rot": 0,
+					"sog": 0,
+					"posAcc": 0,
+					"pos": {
+						"rawLatitude": 22664379,
+						"rawLongitude": 195052134,
+						"latitudeDouble": 37.773965,
+						"longitudeDouble": -122.30553666666667,
+						"latitude": 22664379,
+						"longitude": -73383322,
+						"geoLocation": {
+							"latitude": 37.773965,
+							"longitude": -122.30553666666667,
+							"dto": {
+								"latitude": 37.773965,
+								"longitude": -122.30553666666667
+							},
+							"longitudeAsString": "122 18.332W",
+							"latitudeAsString": "37 46.438N"
+						}
+					},
+					"cog": 2440,
+					"trueHeading": 96,
+					"utcSec": 18,
+					"specialManIndicator": 0,
+					"spare": 0,
+					"raim": 0,
+					"syncState": 0,
+					"slotIncrement": 5348,
+					"numSlots": 5,
+					"keep": 0,
+					"encoded": {
+						"binArray": {
+							"length": 168,
+							"readPtr": 0
+						},
+						"padBits": 0,
+						"length": 168
+					},
+					"rotValid": true,
+					"sensorRot": 0.0,
+					"validPosition": {
+						"latitude": 37.773965,
+						"longitude": -122.30553666666667,
+						"dto": {
+							"latitude": 37.773965,
+							"longitude": -122.30553666666667
+						},
+						"longitudeAsString": "122 18.332W",
+						"latitudeAsString": "37 46.438N"
+					},
+					"positionValid": true,
+					"sogValid": true,
+					"headingValid": true,
+					"cogValid": true,
+					"targetType": "A"
+				},
+				"stringMessageLines": [
+					"!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A"
+				],
+				"bestTimestamp": -1,
+				"stringMessage": "!AIVDM,1,1,,A,35N:665000G@8C<EWDfqR30T0Dq:,0*6A",
+				"validMessage": true
+			},
+			"position": {
+				"latitude": 37.773965,
+				"longitude": -122.30553666666667,
+				"dto": {
+					"latitude": 37.773965,
+					"longitude": -122.30553666666667
+				},
+				"longitudeAsString": "122 18.332W",
+				"latitudeAsString": "37 46.438N"
+			},
+			"timestamp": -1,
+			"trueHeading": 96.0,
+			"courseOverGround": 244.0,
+			"speedOverGround": 0.0,
+			"timestampTyped": [
+				1969,
+				12,
+				31,
+				23,
+				59,
+				59,
+				999000000
+			]
+		},
+		"timeOfLastUpdateTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastPositionReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"timeOfLastAisTrackingReport": -1,
+		"courseOverGround": 244.0,
+		"speedOverGround": 0.0,
+		"timeOfLastAisTrackingReportTyped": [
+			1969,
+			12,
+			31,
+			23,
+			59,
+			59,
+			999000000
+		],
+		"vesselLength": 208,
+		"vesselBeam": 28
+	}
+]
