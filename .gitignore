@@ -4,6 +4,8 @@ Thumbs.db
 build/
 target/
 out/
+bin/
+logs/
 .idea
 *.iml
 *.ipr
@@ -11,3 +13,5 @@ out/
 .project
 .settings
 .classpath
+*.gz
+*.class
