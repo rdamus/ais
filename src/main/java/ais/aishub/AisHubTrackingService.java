@@ -1,6 +1,9 @@
 package ais.aishub;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -34,6 +37,7 @@ public class AisHubTrackingService extends AbstractAisTrackingService{
 	private static final Logger log = LoggerFactory.getLogger(AisHubTrackingService.class);
 	private final double DISTANCE_ARRIVAL = 75;//meters
 	private final double DISTANCE_APPROACH = 200;//meters
+	SimpleDateFormat df = new SimpleDateFormat("YYYY-MM-dd'T'HH:mm:ssZ");
 	
 	@Inject
 	AISHubClient client;
@@ -45,10 +49,15 @@ public class AisHubTrackingService extends AbstractAisTrackingService{
 	@Override
 	protected void processTracks() {
 		synchronized (records) {
-			log.info("about to processTracks, size: " + records.size());
-			records.forEach(r->updateTracking(r));
-			log.info("done processing, clearing cache");
-			records.clear();
+			LocalDateTime time = LocalDateTime.now();
+			if( records.isEmpty() ) {
+				log.info("No records to process, time: " + time);
+			}else {
+				log.info("about to processTracks, size: " + records.size() + " time: " + time);
+				records.forEach(r->updateTracking(r));
+				log.info("done processing, clearing cache");
+				records.clear();
+			}
 		}
 	}
 
@@ -94,9 +103,9 @@ public class AisHubTrackingService extends AbstractAisTrackingService{
 	}
 
 	private void updateRecords(JsonNode request) throws JsonParseException, JsonMappingException, IOException {
-		log.info("made request:" + request);
+		log.debug("made request:" + request);
 		AISHubResponse response = factory.create( request );
-		log.info("received response:" + response);
+		log.debug("received response:" + response);
 		synchronized (records) {
 			if( !response.getHeader().getError() ) {
 				response.getRecords().forEach(r->records.add(r));
@@ -127,26 +136,26 @@ public class AisHubTrackingService extends AbstractAisTrackingService{
 					double sog = track.sog();
 					double cog = track.cog();
 					double hdg = track.heading();
-					Date time = track.time();
+					String time = df.format( track.time() );
 					List<Double> speed = track.sog(3L);
 					log.debug(String.format("Speed History: MMSI:%d,name:%s,speedvec:%s", mmsi,name,speed));
+					String data = String.format("MMSI:%d,name:%s,dist:%3.2fm,sog:%2.1fkts,cog:%3.1f,heading:%3.1f,time:%s",
+							mmsi,name,distance,sog,cog,hdg,time);
 					if( distance < DISTANCE_ARRIVAL ) {
-						log.info(String.format("ARRIVED: MMSI:%d,name:%s,dist:%3.2fm,time:%s", mmsi,name,distance,time));
+						log.info("ARRIVED: " + data);
 						log.info("-----------------");
 					}else if( speed.size() > 1 && distance > DISTANCE_ARRIVAL && distance <= DISTANCE_APPROACH ) {
 						//order should be most recent is first element
 						double dv = speed.get(0) - speed.get( speed.size() - 1 );
 						if( dv < 0 ) {//decreasing
-							log.info(String.format("ARRIVING : MMSI:%d,name:%s,dist:%3.2fm,time:%s", mmsi,name,distance,time));
+							log.info("ARRIVING: " + data);
 							log.info("-----------------");
 						}else {//increasing
-							log.info(String.format("DEPARTING: MMSI:%d,name:%s,dist:%3.2fm,time:%s", mmsi,name,distance,time));
+							log.info("DEPARTING: " + data);
 							log.info("-----------------");
 						}
 					}else {
-						log.info(String.format("MMSI:%d,name:%s,dist:%3.2fm,sog:%2.1fkts,cog:%3.1f,heading:%3.1f,time:%s",
-								mmsi,name,distance,sog,cog,hdg,time));
-						
+						log.info(data);
 					}
 				}
 			}

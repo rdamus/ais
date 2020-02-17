@@ -44,7 +44,7 @@ public abstract class AbstractAisTrackingService implements AisTrackingService {
 		initialized = init();
 	}
 	
-	@Scheduled(fixedRate="10s")
+	@Scheduled(fixedRate="20s")
 	public void process() {
 		if( !initialized  ) {
 			log.info("not initialized");

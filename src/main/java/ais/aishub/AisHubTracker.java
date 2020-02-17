@@ -87,29 +87,29 @@ public class AisHubTracker implements AisTargetTracker {
        return tracks.get( mmsi );
     }
 
-    protected void initTrack(AisTargetPacket p){
-    	AisTarget target = AisTargetFactory.createTarget(p);
-    	log.info("initTrack for target: " + target);
-    	synchronized(tracks) {
-    		tracks.put(p.getMmsi(), new AisTargetTrack(target));
-    	}
-    }
-
+    
     @Override
 	public void update(AisTargetPacket packet) throws Exception {
 		if( packet.getType().equals(AisTargetPacketType.Dma))
     		throw new Exception("can only process AisHub records");
-    	int mmsi = packet.getMmsi();
-    	synchronized(tracks) {
-			if( !tracks.containsKey( mmsi ) ) {
-				initTrack(packet);
-			}else {	
-				tracks.get(mmsi).addReport( AisTargetFactory.createReport(packet) );
-			}
-		}
+    	
+    	updateTracks( packet );
 		//distance to destination - check threshold
 		//
 	}
+    
+    private void updateTracks(AisTargetPacket packet) {
+    	int mmsi = packet.getMmsi();
+    	synchronized(tracks) {
+			if( !tracks.containsKey( mmsi ) ) {
+				AisTarget target = AisTargetFactory.createTarget(packet);
+		    	log.info("initTrack for target: " + target);
+		    	tracks.put(mmsi, new AisTargetTrack(target));
+			}
+			//add a report after init
+			tracks.get(mmsi).addReport( AisTargetFactory.createReport(packet) );
+		}
+    }
 
 	@Override
 	public int numberOfTargets() {
