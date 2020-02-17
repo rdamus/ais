@@ -1,6 +1,8 @@
 micronaut:
-  application:
-    name: ais
+   application:
+      name: ais
 serial:
-  port: COM4
-  baud: 38400
+   port: COM4
+   baud: 38400
+aishub:
+   url: http://data.aishub.net/ws.php?username=AH_2986_C2C9D560&format=1&output=json&latmin=37.5&latmax=38.5&lonmin=-123&lonmax=-122

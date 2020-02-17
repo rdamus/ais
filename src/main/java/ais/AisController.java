@@ -1,27 +1,20 @@
 package ais;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 import javax.inject.Inject;
 
-import dk.dma.ais.message.AisPosition;
-import dk.dma.ais.message.AisPositionMessage;
-import dk.dma.ais.tracker.eventEmittingTracker.Track;
-import dk.dma.enav.model.geometry.CoordinateSystem;
-import dk.dma.enav.model.geometry.Position;
+import ais.model.AisTargetTrack;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 
-@Controller
 public class AisController {
 
 	
 //	AisPositionService service;
-	@Inject AisUdpTrackingService service;
+	@Inject AisTrackingService service;
 	
 	@Get("/")
 	HttpStatus index() {
@@ -29,8 +22,8 @@ public class AisController {
 	}
 	
 	@Get("list")
-	HttpResponse<Collection<Track>> list() {
-		return HttpResponse.ok(service.getTracks());
+	HttpResponse<Collection<AisTargetTrack>> list() {
+		return HttpResponse.ok(service.tracks());
 	}
 //	HttpResponse<List<String>> list() {
 //		MessageStore store = service.getStore();

@@ -2,10 +2,6 @@ package ais;
 
 import java.io.InputStream;
 import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
-import java.net.UnknownHostException;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Deque;
@@ -16,11 +12,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.concurrent.ConcurrentLinkedDeque;
-import java.util.function.BiConsumer;
 import java.util.function.Consumer;
-
-import javax.inject.Singleton;
-import javax.swing.plaf.basic.BasicSliderUI.ScrollListener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,10 +28,7 @@ import dk.dma.ais.reader.AisReaders;
 import dk.dma.enav.model.geometry.CoordinateSystem;
 import dk.dma.enav.model.geometry.Position;
 import io.micronaut.context.annotation.Value;
-import io.micronaut.runtime.event.annotation.EventListener;
 import io.micronaut.runtime.server.event.ServerStartupEvent;
-import io.micronaut.scheduling.annotation.Async;
-import io.micronaut.scheduling.annotation.Scheduled;
 
 //@Singleton
 public class AisPositionService {
